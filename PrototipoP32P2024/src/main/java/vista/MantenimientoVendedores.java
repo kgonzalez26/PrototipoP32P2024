@@ -15,7 +15,7 @@ import java.io.File;
 
 /**
  *
- * @author visitante
+ * @author kevin
  */
 public class MantenimientoVendedores extends javax.swing.JInternalFrame {
 

@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author visitante
+ * @author kevin
  */
 public class Login extends javax.swing.JFrame {
 
@@ -141,7 +141,7 @@ public class Login extends javax.swing.JFrame {
                 if (txtContraseña.getText().equals(usuarioAConsultar.getPassword()) && txtUsuario.getText().equals(usuarioAConsultar.getUsername())) {
                     JOptionPane.showMessageDialog(null, "Bienvenido al SISTEMA\n", "Mensaje de bienvenida", JOptionPane.INFORMATION_MESSAGE);
 
-                    MdiGeneral menuGeneral = new MdiGeneral();
+                    MDI_KevinEduardoGonzalezSosa_9959_22_2702 menuGeneral = new MDI_KevinEduardoGonzalezSosa_9959_22_2702();
                     menuGeneral.setVisible(true);
                     this.dispose();
 

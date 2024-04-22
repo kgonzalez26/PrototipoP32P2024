@@ -9,17 +9,17 @@ import java.awt.Dimension;
 
 /**
  *
- * @author visitante
+ * @author kevin
  */
-public class MdiGeneral extends javax.swing.JFrame {
+public class MDI_KevinEduardoGonzalezSosa_9959_22_2702 extends javax.swing.JFrame {
 
     /**
      * Creates new form MdiGeneral
      */
-    public MdiGeneral() {
+    public MDI_KevinEduardoGonzalezSosa_9959_22_2702() {
         initComponents();
         setLocationRelativeTo(null);
-        this.setExtendedState(MdiGeneral.MAXIMIZED_BOTH);
+        this.setExtendedState(MDI_KevinEduardoGonzalezSosa_9959_22_2702.MAXIMIZED_BOTH);
         this.setTitle("Ejemplo Capas");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
@@ -146,20 +146,21 @@ public class MdiGeneral extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MdiGeneral.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MDI_KevinEduardoGonzalezSosa_9959_22_2702.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MdiGeneral.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MDI_KevinEduardoGonzalezSosa_9959_22_2702.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MdiGeneral.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MDI_KevinEduardoGonzalezSosa_9959_22_2702.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MdiGeneral.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MDI_KevinEduardoGonzalezSosa_9959_22_2702.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MdiGeneral().setVisible(true);
+                new MDI_KevinEduardoGonzalezSosa_9959_22_2702().setVisible(true);
             }
         });
     }
