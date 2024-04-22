@@ -17,7 +17,7 @@ import java.io.File;
  *
  * @author kevin
  */
-public class MantenimientoVendedores extends javax.swing.JInternalFrame {
+public class CRUD_catalogos extends javax.swing.JInternalFrame {
 
     public void llenadoDeCombos() {
         EmpleadoDAO empleadoDAO = new EmpleadoDAO();
@@ -55,7 +55,7 @@ public class MantenimientoVendedores extends javax.swing.JInternalFrame {
         txtDireccion.setText(vendedorAConsultar.getDireVendedor());
     }
 
-    public MantenimientoVendedores() {
+    public CRUD_catalogos() {
         initComponents();
         llenadoDeTablas();
         llenadoDeCombos();

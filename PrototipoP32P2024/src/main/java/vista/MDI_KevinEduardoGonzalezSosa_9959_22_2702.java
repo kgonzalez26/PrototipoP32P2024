@@ -38,9 +38,8 @@ public class MDI_KevinEduardoGonzalezSosa_9959_22_2702 extends javax.swing.JFram
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
-        jMenuItem3 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
@@ -64,27 +63,18 @@ public class MDI_KevinEduardoGonzalezSosa_9959_22_2702 extends javax.swing.JFram
         );
 
         jMenu1.setText("Abrir");
+        jMenuBar1.add(jMenu1);
 
-        jMenu3.setText("Mantenimientos");
-        jMenu3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenu3ActionPerformed(evt);
-            }
-        });
+        jMenu2.setText("Catalogos");
 
-        jMenuItem3.setText("Mantenimiento Vendedores");
+        jMenuItem3.setText("CRUD");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem3);
+        jMenu2.add(jMenuItem3);
 
-        jMenu1.add(jMenu3);
-
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Catalogos");
         jMenuBar1.add(jMenu2);
 
         jMenu4.setText("Procesos");
@@ -115,14 +105,8 @@ public class MDI_KevinEduardoGonzalezSosa_9959_22_2702 extends javax.swing.JFram
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
-        // TODO add your handling code here:
-
-    }//GEN-LAST:event_jMenu3ActionPerformed
-
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        // TODO add your handling code here:
-        MantenimientoVendedores ventana = new MantenimientoVendedores();
+        CRUD_catalogos ventana = new CRUD_catalogos();
         jDesktopPane1.add(ventana);
         Dimension desktopSize = jDesktopPane1.getSize();
         Dimension FrameSize = ventana.getSize();
@@ -169,7 +153,6 @@ public class MDI_KevinEduardoGonzalezSosa_9959_22_2702 extends javax.swing.JFram
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
